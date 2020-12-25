@@ -1,0 +1,37 @@
+ALGORITHM DotProduct
+VAR
+ V1 : ARRAY_OF INTEGER;
+ V2 :ARRAY_OF INTEGER ;
+n1:INTEGER;
+REPEAT
+    read (n1)
+UNTIL (n1>0)
+
+REPEAT
+    read(n2)
+UNTIL (n2>0)
+
+PROCEDURE dot_product(V1,V2)
+VAR
+    ps :INTEGER;
+BEGIN
+
+ps:= le produit scalaire des deux vecteurs V1 et v2
+
+
+END
+
+
+  FUNCTION dot_product(V1,V2) : INTEGER
+  VAR
+      ps:INTEGER;
+  BEGIN
+      
+      ps:=le produit scalaire des deux vecteurs V1 et v2
+      RETURN ps ;
+  END  
+BEGIN
+dot_product(V1,V2);
+produitscalaire:=dot_product(V1,V2);
+
+END
